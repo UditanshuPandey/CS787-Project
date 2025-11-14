@@ -24,3 +24,4 @@ This project implements **AdvGAN** to generate adversarial examples in **semi-wh
 Key insight: **Higher accuracy ≠ higher robustness**. CIFAR-10 shows lower ASR due to dataset complexity.
 
 ---
+- **Project Report Uploaded - Project Report.pdf**
