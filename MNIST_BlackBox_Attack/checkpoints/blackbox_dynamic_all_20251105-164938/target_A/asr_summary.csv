@@ -1,0 +1,3 @@
+model,accuracy,asr_only_correct,asr_all,eval_dir
+substitute,0.989,0.8752275025278059,0.8755,checkpoints\blackbox_dynamic_all_20251105-164938\target_A\substitute_eval
+blackbox_A,0.9921,0.8863017840943453,0.8863,checkpoints\blackbox_dynamic_all_20251105-164938\target_A\blackbox_eval

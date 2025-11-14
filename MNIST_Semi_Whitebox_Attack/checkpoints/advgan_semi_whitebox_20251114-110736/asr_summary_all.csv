@@ -1,0 +1,4 @@
+model,accuracy,asr_only_correct,asr_all,attack_dir
+A,0.9911,0.9382130237253912,0.9385,checkpoints\advgan_semi_whitebox_20251114-110736\semi_whitebox_A
+B,0.9944,0.8836484312148029,0.8838,checkpoints\advgan_semi_whitebox_20251114-110736\semi_whitebox_B
+C,0.9923,0.9378212234203366,0.9381,checkpoints\advgan_semi_whitebox_20251114-110736\semi_whitebox_C

@@ -1,0 +1,22 @@
+{
+  "blackbox": {
+    "name": "A",
+    "accuracy": 0.9517
+  },
+  "substitute": {
+    "accuracy": 0.9284
+  },
+  "ASR": {
+    "substitute_only_correct": 0.819881,
+    "substitute_all": 0.868195,
+    "blackbox_only_correct": 0.842189,
+    "blackbox_all": 0.895093
+  },
+  "artifacts": {
+    "dynamic_dir": "/mnt/data/mnist_dynamic_updated/target_A/dynamic",
+    "substitute_eval_dir": "/mnt/data/mnist_dynamic_updated/target_A/substitute_eval",
+    "blackbox_eval_dir": "/mnt/data/mnist_dynamic_updated/target_A/blackbox_eval",
+    "per_target_csv": "/mnt/data/mnist_dynamic_updated/target_A/asr_summary.csv"
+  },
+  "logs": []
+}

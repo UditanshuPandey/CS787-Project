@@ -1,0 +1,4 @@
+blackbox_model,blackbox_accuracy,substitute_accuracy,substitute_asr_only_correct,substitute_asr_all,blackbox_asr_only_correct,blackbox_asr_all,run_dir
+A,0.9921,0.989,0.8752275025278059,0.8755,0.8863017840943453,0.8863,checkpoints\blackbox_dynamic_all_20251105-164938\target_A
+B,0.9922,0.991,0.6980827447023209,0.7,0.7472283813747228,0.7483,checkpoints\blackbox_dynamic_all_20251105-164938\target_B
+C,0.99,0.9887,0.6736118134924649,0.6766,0.6810101010101011,0.6827,checkpoints\blackbox_dynamic_all_20251105-164938\target_C

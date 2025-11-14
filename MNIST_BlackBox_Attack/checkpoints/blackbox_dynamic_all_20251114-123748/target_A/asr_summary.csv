@@ -1,0 +1,3 @@
+model,accuracy,asr_only_correct,asr_all,eval_dir
+substitute,0.9284,0.819881,0.868195,/mnt/data/mnist_dynamic_updated/target_A/substitute_eval
+blackbox_A,0.9517,0.842189,0.895093,/mnt/data/mnist_dynamic_updated/target_A/blackbox_eval

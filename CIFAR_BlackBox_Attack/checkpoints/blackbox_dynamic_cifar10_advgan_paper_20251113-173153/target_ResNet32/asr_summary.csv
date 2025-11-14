@@ -1,0 +1,3 @@
+model,accuracy,asr_only_correct,asr_all,eval_dir
+substitute,0.8284,0.752100,0.748800,checkpoints\blackbox_dynamic_cifar10_advgan_paper_20251113-173153\target_ResNet32\substitute_eval
+blackbox_ResNet32,0.8531,0.743200,0.754400,checkpoints\blackbox_dynamic_cifar10_advgan_paper_20251113-173153\target_ResNet32\blackbox_eval

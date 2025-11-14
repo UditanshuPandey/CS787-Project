@@ -1,0 +1,116 @@
+{
+  "blackbox": {
+    "name": "A",
+    "accuracy": 0.9921
+  },
+  "substitute": {
+    "accuracy": 0.989
+  },
+  "ASR": {
+    "substitute_only_correct": 0.8752275025278059,
+    "substitute_all": 0.8755,
+    "blackbox_only_correct": 0.8863017840943453,
+    "blackbox_all": 0.8863
+  },
+  "artifacts": {
+    "dynamic_dir": "checkpoints\\blackbox_dynamic_all_20251105-164938\\target_A\\dynamic",
+    "substitute_eval_dir": "checkpoints\\blackbox_dynamic_all_20251105-164938\\target_A\\substitute_eval",
+    "blackbox_eval_dir": "checkpoints\\blackbox_dynamic_all_20251105-164938\\target_A\\blackbox_eval",
+    "per_target_csv": "checkpoints\\blackbox_dynamic_all_20251105-164938\\target_A\\asr_summary.csv"
+  },
+  "logs": [
+    {
+      "iteration": 1,
+      "sub_acc": 0.9980000257492065,
+      "agreement": 0.9980000257492065,
+      "adv_logs": [
+        {
+          "epoch": 1,
+          "loss_D": 0.590205058105973,
+          "loss_G": 6.55094964163644,
+          "loss_adv": 2.1237540937690085,
+          "loss_hinge": 3.5783812525684136,
+          "loss_gan": 0.8488143160144912
+        },
+        {
+          "epoch": 2,
+          "loss_D": 0.32574737554928385,
+          "loss_G": 5.55765664806244,
+          "loss_adv": 1.1675983655935667,
+          "loss_hinge": 3.0514975066886527,
+          "loss_gan": 1.3385607731113556
+        },
+        {
+          "epoch": 3,
+          "loss_D": 0.184885257660453,
+          "loss_G": 5.916738763292715,
+          "loss_adv": 1.1483560562896322,
+          "loss_hinge": 2.908981208353917,
+          "loss_gan": 1.8594015018263859
+        }
+      ]
+    },
+    {
+      "iteration": 2,
+      "sub_acc": 0.9980000257492065,
+      "agreement": 0.9980000257492065,
+      "adv_logs": [
+        {
+          "epoch": 1,
+          "loss_D": 0.5988886614979457,
+          "loss_G": 7.33199995362174,
+          "loss_adv": 2.8952998517672897,
+          "loss_hinge": 3.6313335347785625,
+          "loss_gan": 0.8053665505543447
+        },
+        {
+          "epoch": 2,
+          "loss_D": 0.39310143471780873,
+          "loss_G": 5.8245764683558745,
+          "loss_adv": 1.4985167868355953,
+          "loss_hinge": 3.20055943968962,
+          "loss_gan": 1.1255002422119254
+        },
+        {
+          "epoch": 3,
+          "loss_D": 0.2525901740420856,
+          "loss_G": 6.002385053044952,
+          "loss_adv": 1.4467344408604637,
+          "loss_hinge": 3.0269789517815435,
+          "loss_gan": 1.5286716624363652
+        }
+      ]
+    },
+    {
+      "iteration": 3,
+      "sub_acc": 0.999000072479248,
+      "agreement": 0.999000072479248,
+      "adv_logs": [
+        {
+          "epoch": 1,
+          "loss_D": 0.6074929791472868,
+          "loss_G": 7.655652698931664,
+          "loss_adv": 3.140543472792294,
+          "loss_hinge": 3.7267822601647773,
+          "loss_gan": 0.788326985292089
+        },
+        {
+          "epoch": 2,
+          "loss_D": 0.42038779885275784,
+          "loss_G": 5.905373036480153,
+          "loss_adv": 1.4174659582597615,
+          "loss_hinge": 3.3780279744154353,
+          "loss_gan": 1.109879118293079
+        },
+        {
+          "epoch": 3,
+          "loss_D": 0.2763135430019802,
+          "loss_G": 6.042538248399682,
+          "loss_adv": 1.3282838820902778,
+          "loss_hinge": 3.2324206712149355,
+          "loss_gan": 1.4818336994154875
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+model,accuracy,asr_only_correct,asr_all,attack_dir
+ResNet32,0.8765,0.8462065031374786,0.8489,checkpoints\advgan_cifar10_resnet32_20251105-180631\semi_whitebox_ResNet32

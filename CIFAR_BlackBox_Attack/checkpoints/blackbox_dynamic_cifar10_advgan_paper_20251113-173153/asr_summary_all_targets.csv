@@ -1,0 +1,2 @@
+blackbox_model,blackbox_accuracy,substitute_accuracy,substitute_asr_only_correct,substitute_asr_all,blackbox_asr_only_correct,blackbox_asr_all,run_dir
+ResNet32,0.8531,0.8284,0.7521,0.7488,0.7432,0.7544,checkpoints\blackbox_dynamic_cifar10_advgan_paper_20251113-173153\target_ResNet32

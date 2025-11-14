@@ -1,0 +1,13 @@
+{
+  "run_root": "checkpoints\\advgan_cifar10_resnet32_20251105-180631",
+  "model": {
+    "name": "ResNet32",
+    "accuracy": 0.8765,
+    "checkpoint": "checkpoints\\advgan_cifar10_resnet32_20251105-180631\\model_ResNet32\\ResNet32_final.pt"
+  },
+  "results": {
+    "asr_only_correct": 0.8462065031374786,
+    "asr_all": 0.8489,
+    "attack_dir": "checkpoints\\advgan_cifar10_resnet32_20251105-180631\\semi_whitebox_ResNet32"
+  }
+}

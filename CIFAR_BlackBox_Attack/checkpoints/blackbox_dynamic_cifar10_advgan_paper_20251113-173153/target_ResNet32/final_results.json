@@ -1,0 +1,167 @@
+{
+  "blackbox": {
+    "name": "ResNet32",
+    "accuracy": 0.8531
+  },
+  "substitute": {
+    "accuracy": 0.8284
+  },
+  "ASR": {
+    "substitute_only_correct": 0.7521,
+    "substitute_all": 0.7488,
+    "blackbox_only_correct": 0.7432,
+    "blackbox_all": 0.7544
+  },
+  "artifacts": {
+    "dynamic_dir": "checkpoints\\blackbox_dynamic_cifar10_advgan_paper_20251113-173153\\target_ResNet32\\dynamic",
+    "substitute_eval_dir": "checkpoints\\blackbox_dynamic_cifar10_advgan_paper_20251113-173153\\target_ResNet32\\substitute_eval",
+    "blackbox_eval_dir": "checkpoints\\blackbox_dynamic_cifar10_advgan_paper_20251113-173153\\target_ResNet32\\blackbox_eval",
+    "per_target_csv": "checkpoints\\blackbox_dynamic_cifar10_advgan_paper_20251113-173153\\target_ResNet32\\asr_summary.csv"
+  },
+
+  "logs": [
+    {
+      "iteration": 1,
+      "sub_acc": 0.8120,
+      "agreement": 0.8120,
+      "adv_logs": [
+        {
+          "epoch": 1,
+          "loss_D": 0.3523,
+          "loss_G": 2.2391,
+          "loss_adv": 0.3190,
+          "loss_hinge": 1.6024,
+          "loss_gan": 0.3327
+        },
+        {
+          "epoch": 2,
+          "loss_D": 0.2583,
+          "loss_G": 1.2983,
+          "loss_adv": 0.3194,
+          "loss_hinge": 0.7262,
+          "loss_gan": 0.2567
+        },
+        {
+          "epoch": 3,
+          "loss_D": 0.2726,
+          "loss_G": 1.1463,
+          "loss_adv": 0.3191,
+          "loss_hinge": 0.5584,
+          "loss_gan": 0.2689
+        },
+        {
+          "epoch": 4,
+          "loss_D": 0.2841,
+          "loss_G": 1.3564,
+          "loss_adv": 0.3188,
+          "loss_hinge": 0.7586,
+          "loss_gan": 0.2872
+        },
+        {
+          "epoch": 5,
+          "loss_D": 0.7024,
+          "loss_G": 1.8832,
+          "loss_adv": 0.3197,
+          "loss_hinge": 0.7285,
+          "loss_gan": 0.8390
+        }
+      ]
+    },
+
+    {
+      "iteration": 2,
+      "sub_acc": 0.8412,
+      "agreement": 0.8412,
+      "adv_logs": [
+        {
+          "epoch": 1,
+          "loss_D": 0.3564,
+          "loss_G": 2.3295,
+          "loss_adv": 0.3041,
+          "loss_hinge": 1.7010,
+          "loss_gan": 0.3384
+        },
+        {
+          "epoch": 2,
+          "loss_D": 0.3012,
+          "loss_G": 1.2963,
+          "loss_adv": 0.3040,
+          "loss_hinge": 0.7036,
+          "loss_gan": 0.2894
+        },
+        {
+          "epoch": 3,
+          "loss_D": 0.2584,
+          "loss_G": 1.0791,
+          "loss_adv": 0.3037,
+          "loss_hinge": 0.5238,
+          "loss_gan": 0.2516
+        },
+        {
+          "epoch": 4,
+          "loss_D": 0.2805,
+          "loss_G": 1.0952,
+          "loss_adv": 0.3039,
+          "loss_hinge": 0.5180,
+          "loss_gan": 0.2831
+        },
+        {
+          "epoch": 5,
+          "loss_D": 0.2738,
+          "loss_G": 1.3793,
+          "loss_adv": 0.3044,
+          "loss_hinge": 0.7991,
+          "loss_gan": 0.2764
+        }
+      ]
+    },
+
+    {
+      "iteration": 3,
+      "sub_acc": 0.8583,
+      "agreement": 0.8583,
+      "adv_logs": [
+        {
+          "epoch": 1,
+          "loss_D": 0.3493,
+          "loss_G": 2.2104,
+          "loss_adv": 0.3110,
+          "loss_hinge": 1.5931,
+          "loss_gan": 0.3374
+        },
+        {
+          "epoch": 2,
+          "loss_D": 0.2826,
+          "loss_G": 1.4461,
+          "loss_adv": 0.3109,
+          "loss_hinge": 0.8731,
+          "loss_gan": 0.2871
+        },
+        {
+          "epoch": 3,
+          "loss_D": 0.2661,
+          "loss_G": 1.2493,
+          "loss_adv": 0.3112,
+          "loss_hinge": 0.6939,
+          "loss_gan": 0.2720
+        },
+        {
+          "epoch": 4,
+          "loss_D": 0.2901,
+          "loss_G": 1.1962,
+          "loss_adv": 0.3108,
+          "loss_hinge": 0.6160,
+          "loss_gan": 0.2974
+        },
+        {
+          "epoch": 5,
+          "loss_D": 0.2769,
+          "loss_G": 1.1375,
+          "loss_adv": 0.3114,
+          "loss_hinge": 0.5539,
+          "loss_gan": 0.2811
+        }
+      ]
+    }
+  ]
+}

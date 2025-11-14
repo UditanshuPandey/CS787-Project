@@ -1,0 +1,33 @@
+{
+  "models": {
+    "A": {
+      "accuracy": 0.9829,
+      "checkpoint": "checkpoints\\advgan_semi_whitebox_20251105-163406\\model_A\\model_A_final.pt"
+    },
+    "B": {
+      "accuracy": 0.9928,
+      "checkpoint": "checkpoints\\advgan_semi_whitebox_20251105-163406\\model_B\\model_B_final.pt"
+    },
+    "C": {
+      "accuracy": 0.9896,
+      "checkpoint": "checkpoints\\advgan_semi_whitebox_20251105-163406\\model_C\\model_C_final.pt"
+    }
+  },
+  "semi_whitebox": {
+    "A": {
+      "attack_success_only_correct": 0.8521606507371632,
+      "attack_success_all": 0.8528,
+      "dir": "checkpoints\\advgan_semi_whitebox_20251105-163406\\semi_whitebox_A"
+    },
+    "B": {
+      "attack_success_only_correct": 0.7360999194198228,
+      "attack_success_all": 0.7372,
+      "dir": "checkpoints\\advgan_semi_whitebox_20251105-163406\\semi_whitebox_B"
+    },
+    "C": {
+      "attack_success_only_correct": 0.744341147938561,
+      "attack_success_all": 0.7463,
+      "dir": "checkpoints\\advgan_semi_whitebox_20251105-163406\\semi_whitebox_C"
+    }
+  }
+}
